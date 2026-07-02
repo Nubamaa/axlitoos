@@ -1,0 +1,686 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jon Axl Arones | Portfolio</title>
+    <meta name="description" content="Jon Axl Arones portfolio featuring projects, experience, skills, and contact details.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;rect x='14' y='14' width='72' height='72' rx='18' fill='%23165dff'/&gt;&lt;path d='M32 62c0-11 7-19 18-19 8 0 15 4 18 11l-11 4c-1.2-3-3.9-5-7.8-5-5.8 0-9.7 4.4-9.7 9.9 0 5.7 4 9.8 10.2 9.8 3.7 0 6.9-1.5 8.8-4.6l10 4.8c-3.8 7-11.1 10.8-19.1 10.8-11.6 0-18.4-8.1-18.4-21.1z' fill='white'/&gt;&lt;/svg&gt;">
+    <link rel="stylesheet" href="Layouts/styles.css?v=3">
+    <style>
+        .section {
+            padding: 5rem 0 !important;
+        }
+
+        .hero {
+            padding-top: 2.5rem !important;
+            padding-bottom: 2.5rem !important;
+        }
+
+        .hero-stats .stat-card {
+            flex-direction: row !important;
+            align-items: center !important;
+            gap: 0.75rem !important;
+        }
+
+        .hero-stats .mini-icon {
+            margin: 0 !important;
+            flex-shrink: 0 !important;
+        }
+
+        .hero-stats .mini-icon svg {
+            width: 1rem !important;
+            height: 1rem !important;
+            display: block;
+            margin: 0 auto;
+            transform: translateY(0.50rem);
+        }
+
+        .info-card,
+        .detail-panel,
+        .skill-card,
+        .contact-card {
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: flex-start !important;
+        }
+
+        .card-icon {
+            width: 2.1rem !important;
+            height: 2.1rem !important;
+            border-radius: 10px !important;
+            margin: 0 0 0.75rem 0 !important;
+            align-self: flex-start !important;
+        }
+
+        .info-card .card-icon,
+        .detail-panel .card-icon,
+        .skill-card .card-icon,
+        .contact-card .card-icon {
+            margin-bottom: 0.75rem !important;
+        }
+    </style>
+</head>
+<body>
+<div class="page-bg"></div>
+
+<header class="site-header">
+    <div class="container header-bar">
+        <a class="brand" href="#home">Jon Axl Arones</a>
+        <button class="menu-button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        <nav class="site-nav" id="primary-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero section" id="home">
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <p class="eyebrow">Available for Work</p>
+                <h1>Hello, I'm <span>Jon Axl Arones</span></h1>
+                <p class="hero-track">Data Analyst · Business Analyst · Software Developer</p>
+                <p class="hero-summary">A 4th-year Bachelor of Science in Information Technology (BSIT) student at Asia Pacific College and a young technology professional passionate about building practical digital solutions that solve real-world problems. Interested in software development, data analytics, business analysis, and AI-powered applications while continuously improving technical and problem-solving skills through hands-on projects.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">
+                        <span>View Projects</span>
+                        <span class="button-icon" aria-hidden="true">→</span>
+                    </a>
+                    <a class="button button-secondary" href="files/Arones, Jon Axl [Resume].pdf" target="_blank" rel="noreferrer">Download Resume</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-photo-card">
+                    <img src="assets/profile.png" alt="Portrait of Jon Axl Arones">
+                </div>
+            </div>
+        </div>
+
+        <div class="container hero-stats">
+            <article class="stat-card">
+                <span class="mini-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M4 5h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.5"></path><path d="M7 9h10M7 12h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </span>
+                <div class="stat-copy"><strong>5+</strong><span>Academic Projects</span></div>
+            </article>
+            <article class="stat-card">
+                <span class="mini-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M5 18c2-5 4-7 7-7s5 2 7 7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><circle cx="12" cy="8" r="3" fill="none" stroke="currentColor" stroke-width="1.5"></circle></svg>
+                </span>
+                <div class="stat-copy"><strong>Data</strong><span>Analytics</span></div>
+            </article>
+            <article class="stat-card">
+                <span class="mini-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"></rect><path d="M7 17v2M12 17v2M17 17v2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
+                </span>
+                <div class="stat-copy"><strong>Power BI</strong><span>Dashboarding</span></div>
+            </article>
+            <article class="stat-card">
+                <span class="mini-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M5 19V5l14 7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path></svg>
+                </span>
+                <div class="stat-copy"><strong>Project</strong><span>Development</span></div>
+            </article>
+            <article class="stat-card">
+                <span class="mini-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24"><path d="M12 4l2.2 4.5L19 9l-3.5 3.4.8 4.9L12 15.9 7.7 17.3l.8-4.9L5 9l4.8-.5z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path></svg>
+                </span>
+                <div class="stat-copy"><strong>AI</strong><span>Solutions</span></div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section section-muted" id="about">
+        <div class="container">
+            <div class="section-heading centered">
+                <p class="eyebrow">About Me</p>
+                <h2>Building thoughtful digital work with data, systems, and AI.</h2>
+            </div>
+
+            <div class="about-grid">
+                <article class="info-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 19h16M7 19V9l5-4 5 4v10" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path></svg></span>
+                    <p class="card-kicker">Who I Am</p>
+                    <h3>Curious, analytical, and eager to learn.</h3>
+                    <p>I enjoy solving problems and building practical digital solutions. Whether I'm developing an application or analyzing data, I focus on creating work that is useful, organized, and easy to understand.</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path></svg></span>
+                    <p class="card-kicker">What I Enjoy</p>
+                    <h3>Building solutions that make work easier.</h3>
+                    <p>I enjoy working on software projects, creating dashboards, exploring AI tools, and turning ideas into applications that solve real-world problems.</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19h14M7 19V8l5-3 5 3v11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path><path d="M10 19v-5h4v5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></span>
+                    <p class="card-kicker">Career Goal</p>
+                    <h3>Growing into a technology professional.</h3>
+                    <p>I'm interested in building a career in Data Analytics, Business Analysis, or Software Development. My goal is to continue learning, gain industry experience, and contribute to projects that create real value.</p>
+                </article>
+                <article class="info-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 18c2-2 4-3 6-3s4 1 6 3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path><circle cx="12" cy="9" r="3" fill="none" stroke="currentColor" stroke-width="1.5"></circle></svg></span>
+                    <p class="card-kicker">Beyond Tech</p>
+                    <h3>Teamwork, leadership, and continuous growth.</h3>
+                    <p>Through student organizations, academic projects, and work experience, I've learned how to communicate effectively, collaborate with others, and adapt to new challenges while staying dependable.</p>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-heading section-heading-row">
+                <div>
+                    <p class="eyebrow">Featured Projects</p>
+                    <h2>Recent work that blends product thinking and technical execution.</h2>
+                </div>
+            </div>
+
+            <div class="project-stack">
+                <article class="project-card">
+                    <button class="project-media project-media-button project-media-seat" type="button" data-full-image="assets/project-seat.jpg" data-gallery="assets/project-seat.jpg,assets/SEAT_ADMIN_DASHBOARD.png,assets/SEAT_ADMIN_INSIGHTS.png,assets/SEAT_ADMIN_REPORTS.png,assets/SEAT_USERS_APP.png" aria-label="Open full SEAT project image">
+                        <img src="assets/project-seat.jpg" alt="SEAT project preview">
+                    </button>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span>Featured</span>
+                            <span>Mobile & Web</span>
+                            <span>PBL 1 and PBL 2 (Similar to CAPSTONE)</span>
+                        </div>
+                        <h3>SEAT - Smart Efficient and Accessible Transit</h3>
+                        <p>A smart transportation system consisting of a commuter mobile application and an admin web dashboard. SEAT helps Filipino train passengers with real-time train updates, crowd monitoring, fare checking, and destination alerts while providing administrators with tools to manage system data and operations.</p>
+                        <div class="tag-row">
+                            <span class="pill">React</span>
+                            <span class="pill">Firebase</span>
+                            <span class="pill">HTML/CSS/JS</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card project-card-reverse">
+                    <button class="project-media project-media-button" type="button" data-full-image="assets/lumina-ai.png" data-gallery="assets/lumina-ai.png,assets/LUMINA_AI.png,assets/LUMINA_AI_LESSON_PLAN.png,assets/LUMINA_AI_PROMPT.png,assets/LUMINA.mp4" aria-label="Open full Lumina AI project image">
+                        <img src="assets/lumina-ai.png" alt="Lumina AI project preview">
+                    </button>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span>Featured</span>
+                            <span>AI Web App</span>
+                            <span>Solo Project</span>
+                        </div>
+                        <h3>Lumina AI</h3>
+                        <p>An AI-powered lesson planning platform that helps Filipino teachers generate DepEd-compliant Daily Lesson Plans in seconds. Lumina AI combines prompt engineering, validation, and AI assistance to reduce paperwork while keeping teachers in full control of the final lesson plan.</p>
+                        <div class="tag-row">
+                            <span class="pill">React</span>
+                            <span class="pill">Flask</span>
+                            <span class="pill">Groq API</span>
+                            <span class="pill">LLaMA 3.3</span>
+                            <span class="pill">Prompt Engineering</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <button class="project-media project-media-button" type="button" data-full-image="assets/stories-behind-numbers.png" data-gallery="assets/stories-behind-numbers.png,assets/Stories Behind Numbers Page 2.png" aria-label="Open full Stories Behind Numbers project image">
+                        <img src="assets/stories-behind-numbers.png" alt="Stories Behind Numbers dashboard preview">
+                    </button>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span>Data Storytelling</span>
+                            <span>Data Mining</span>
+                            <span>Data Analytics</span>
+                            <span>Data Visualization</span>
+                        </div>
+                        <h3>Stories Behind Numbers</h3>
+                        <p>An interactive data analytics project that combines data visualization and data mining to analyze global sexual violence data. Using dashboards and pattern analysis, the project helps users understand trends, compare information across countries and years, and discover insights that may not be obvious from raw data alone. The goal is to present complex information in a clear, interactive, and meaningful way.</p>
+                        <div class="tag-row">
+                            <span class="pill">Tableau</span>
+                            <span class="pill">Power BI</span>
+                            <span class="pill">WEKA</span>
+                            <span class="pill">Excel</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <button class="project-media project-media-button" type="button" data-full-image="assets/mr-chooks.png" data-gallery="assets/mr-chooks.png,assets/MR. CHOOKS ADMIN.png,assets/MR. CHOOKS EMPLOYEE POS.png" aria-label="Open full Mr. Chooks POS project image">
+                        <img src="assets/mr-chooks.png" alt="Mr. Chooks POS login preview">
+                    </button>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span>Recent</span>
+                            <span>Full-Stack</span>
+                            <span>React</span>
+                        </div>
+                        <h3>Mr. Chooks POS</h3>
+                        <p>A complete point-of-sale and business management system built for a Filipino fried chicken brand. Features a role-based login for Admins and Employees, a real-time sales dashboard with gross/net profit tracking, an employee-facing POS for quick transactions, plus inventory, purchase orders, expenses, delivery profit, and daily reconciliation modules — all backed by Firebase for live data sync.</p>
+                        <div class="tag-row">
+                            <span class="pill">React</span>
+                            <span class="pill">Firebase</span>
+                            <span class="pill">Firestore</span>
+                            <span class="pill">Authentication</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card project-card-reverse">
+                    <button class="project-media project-media-button" type="button" data-full-image="assets/FLOOD_CONTROL_DASHBOARD.png" data-gallery="assets/FLOOD_CONTROL_DASHBOARD.png,assets/FLOOD_CONTROL_DASHBOARD_SUMMARY.png,assets/FLOOD_CONTROL_DASHBOARD_PROVINCE.png,assets/FLOOD_CONTROL_DASHBOARD_CONTRACTORS.png,assets/FLOOD_CONTROL_DASHBOARD_DEMO.mp4" aria-label="Open full Flood Control Dashboard project image">
+                        <img src="assets/FLOOD_CONTROL_DASHBOARD.png" alt="Flood Control Dashboard preview">
+                    </button>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span>Real-Time Monitoring</span>
+                            <span>Web Dashboard</span>
+                            <span>Data Visualization</span>
+                        </div>
+                        <h3>Flood Control Dashboard</h3>
+                        <p>A comprehensive real-time flood monitoring and control system dashboard. Features multi-level views for administrators, contractors, and provincial authorities with live data visualization, status updates, and emergency alerts. The system integrates location tracking, flood level monitoring, and resource management to help coordinate disaster response and mitigation efforts.</p>
+                        <div class="tag-row">
+                            <span class="pill">React</span>
+                            <span class="pill">Real-Time Data</span>
+                            <span class="pill">Data Visualization</span>
+                            <span class="pill">Dashboard</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card project-card-reverse">
+                    <button class="project-media project-media-button" type="button" data-full-image="assets/digiGuesser.png" aria-label="Open full SDG Digi Guesser project image">
+                        <img src="assets/digiGuesser.png" alt="SDG Digi Guesser preview">
+                    </button>
+                    <div class="project-body">
+                        <div class="project-meta">
+                            <span>Game</span>
+                            <span>Academic Project</span>
+                        </div>
+                        <h3>SDG Digi Guesser</h3>
+                        <p>A Python-based memory game designed to challenge players by matching pairs of tiles while improving concentration and memory skills. The project focuses on game logic, user interaction, and creating an enjoyable experience through simple gameplay and an easy-to-use interface. It also strengthened my understanding of programming fundamentals, problem-solving, and application development.</p>
+                        <div class="tag-row">
+                            <span class="pill">Python</span>
+                            <span class="pill">Game Logic</span>
+                            <span class="pill">Problem Solving</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-muted" id="skil    ls">
+        <div class="container">
+            <div class="section-heading centered">
+                <p class="eyebrow">Technical Proficiency</p>
+                <h2>Tools and concepts I use to build, analyze, and ship work.</h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19h14M7 16l3-8 4 6 3-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                    <h3>Data Analytics</h3>
+                    <div class="tag-row">
+                        <span class="pill">SQL / MySQL</span>
+                        <span class="pill">Power BI</span>
+                        <span class="pill">Tableau</span>
+                        <span class="pill">Predictive Modeling</span>
+                        <span class="pill">Data Visualization</span>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 5h12M6 12h12M6 19h12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></span>
+                    <h3>Programming</h3>
+                    <div class="tag-row">
+                        <span class="pill">Python</span>
+                        <span class="pill">Java</span>
+                        <span class="pill">C++</span>
+                        <span class="pill">PHP</span>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.5"></path><path d="M8 10h8M8 14h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></span>
+                    <h3>Web Development</h3>
+                    <div class="tag-row">
+                        <span class="pill">React</span>
+                        <span class="pill">HTML/CSS/JS</span>
+                        <span class="pill">Tailwind CSS</span>
+                        <span class="pill">Vite</span>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 5h12v14H6z" fill="none" stroke="currentColor" stroke-width="1.5"></path><path d="M9 9h6M9 13h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></span>
+                    <h3>Productivity &amp; Design</h3>
+                    <div class="tag-row">
+                        <span class="pill">Figma</span>
+                        <span class="pill">Canva</span>
+                        <span class="pill">Advanced Excel</span>
+                        <span class="pill">Office 365</span>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 7h14v10H5z" fill="none" stroke="currentColor" stroke-width="1.5"></path><path d="M8 10h8M8 13h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg></span>
+                    <h3>Development Tools</h3>
+                    <div class="tag-row">
+                        <span class="pill">GitHub</span>
+                        <span class="pill">VS Code</span>
+                        <span class="pill">Firebase</span>
+                        <span class="pill">REST APIs</span>
+                    </div>
+                </article>
+                <article class="skill-card">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4l2.2 4.5L19 9l-3.5 3.4.8 4.9L12 15.9 7.7 17.3l.8-4.9L5 9l4.8-.5z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path></svg></span>
+                    <h3>AI Tools</h3>
+                    <div class="tag-row">
+                        <span class="pill">Groq API</span>
+                        <span class="pill">LLaMA 3.3</span>
+                        <span class="pill">AI Prompting</span>
+                        <span class="pill">Validation</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <p class="eyebrow">Work Experience</p>
+                <h2>Experience that strengthened my communication and execution.</h2>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <span class="timeline-date">July 2024 - May 2025</span>
+                    <h3>Web Designer</h3>
+                    <p class="timeline-company">JDA Bags and Tires</p>
+                    <p>Redesigned and maintained the company website, focused on creating a user-friendly interface that showcased product inventory and improved customer engagement.</p>
+                </article>
+                <article class="timeline-item">
+                    <span class="timeline-date">June 2023 - March 2024</span>
+                    <h3>Virtual Assistant - Social Media Manager</h3>
+                    <p class="timeline-company">Ray Fitness Journey</p>
+                    <p>Managed social media growth, developed content strategies, and handled administrative tasks to support the brand's digital reach.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <div class="section-heading centered">
+                <p class="eyebrow">Let's Connect</p>
+                <h2>I’m currently looking for internship and entry-level opportunities.</h2>
+            </div>
+
+            <div class="contact-grid">
+                <a class="contact-card" href="mailto:axlarones@gmail.com">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path><path d="M4 8l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                    <span class="contact-label">Email Me</span>
+                    <strong>axlarones@gmail.com</strong>
+                </a>
+                <a class="contact-card" href="www.linkedin.com/in/axlitoos" target="_blank" rel="noreferrer">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 8v10M6 5.5v.5M10 18v-5a2 2 0 0 1 4 0v5M14 13.5c0-1.9 1-3.5 3-3.5 2.1 0 3 1.6 3 3.5V18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+                    <span class="contact-label">LinkedIn</span>
+                    <strong>linkedin.com/in/jonaxlarones</strong>
+                </a>
+                <a class="contact-card" href="https://github.com/Nubamaa" target="_blank" rel="noreferrer">
+                    <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4a8 8 0 0 0-2.5 15.6c.4.1.6-.2.6-.4v-1.4c-2.6.6-3.1-1.1-3.1-1.1-.4-.9-1-1.2-1-1.2-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.6.3-1 .6-1.2-2.1-.2-4.2-1-4.2-4.5 0-1 .4-1.8 1-2.4-.1-.2-.4-1 .1-2 0 0 .8-.3 2.6.9a9 9 0 0 1 4.8 0c1.8-1.2 2.6-.9 2.6-.9.5 1 .2 1.8.1 2 .6.6 1 1.4 1 2.4 0 3.5-2.1 4.3-4.2 4.5.3.3.7.9.7 1.9v2.9c0 .2.2.5.6.4A8 8 0 0 0 12 4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"></path></svg></span>
+                    <span class="contact-label">GitHub</span>
+                    <strong>github.com/Nubamaa</strong>
+                </a>
+            </div>
+
+            <div class="cta-banner">
+                <div>
+                    <p class="eyebrow eyebrow-light">Ready to start a project?</p>
+                    <h3>Let’s build something useful together.</h3>
+                </div>
+                <div class="cta-actions">
+                    <a class="button button-light" href="mailto:axlarones@gmail.com">Send a Message</a>
+                    <a class="button button-outline-light" href="files/Arones, Jon Axl [Resume].pdf" target="_blank" rel="noreferrer">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-bar">
+        <strong>Jon Axl Arones</strong>
+        <p>© 2026 Jon Axl Arones. BSIT Portfolio.</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/jonaxlarones" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/Nubamaa" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:axlarones@gmail.com">Email</a>
+        </div>
+    </div>
+</footer>
+
+<div class="image-modal" id="imageModal" aria-hidden="true">
+    <button class="image-modal-backdrop" type="button" aria-label="Close image preview"></button>
+    <div class="image-modal-dialog" role="dialog" aria-modal="true" aria-label="Project image preview">
+        <button class="image-modal-close" type="button" aria-label="Close image preview">Close</button>
+        <button class="image-modal-nav image-modal-nav-prev" type="button" aria-label="Previous image">&#10094;</button>
+        <div class="image-modal-media">
+            <img id="imageModalImg" alt="Project image preview">
+            <video id="imageModalVideo" controls playsinline preload="metadata" hidden></video>
+        </div>
+        <button class="image-modal-nav image-modal-nav-next" type="button" aria-label="Next image">&#10095;</button>
+    </div>
+</div>
+
+<script>
+    const menuButton = document.querySelector('.menu-button');
+    const siteNav = document.querySelector('.site-nav');
+    const imageModal = document.getElementById('imageModal');
+    const imageModalImg = document.getElementById('imageModalImg');
+    const imageModalVideo = document.getElementById('imageModalVideo');
+    const projectImageButtons = document.querySelectorAll('.project-media-button');
+    const imageModalBackdrop = document.querySelector('.image-modal-backdrop');
+    const imageModalClose = document.querySelector('.image-modal-close');
+    const imageModalNavPrev = document.querySelector('.image-modal-nav-prev');
+    const imageModalNavNext = document.querySelector('.image-modal-nav-next');
+    const imageModalState = {
+        images: [],
+        index: 0
+    };
+
+    const closeImageModal = () => {
+        if (!imageModal) {
+            return;
+        }
+        if (imageModalVideo) {
+            imageModalVideo.pause();
+            imageModalVideo.removeAttribute('src');
+            imageModalVideo.load();
+            imageModalVideo.hidden = true;
+        }
+        if (imageModalImg) {
+            imageModalImg.removeAttribute('src');
+            imageModalImg.hidden = false;
+        }
+        imageModal.classList.remove('is-open');
+        imageModal.setAttribute('aria-hidden', 'true');
+        imageModalState.images = [];
+        imageModalState.index = 0;
+    };
+
+    const updateImageModalNavigation = () => {
+        if (!imageModalNavPrev || !imageModalNavNext) {
+            return;
+        }
+        const showNavigation = imageModalState.images.length > 1;
+        imageModalNavPrev.style.display = showNavigation ? 'inline-flex' : 'none';
+        imageModalNavNext.style.display = showNavigation ? 'inline-flex' : 'none';
+    };
+
+    const showImageModalItem = (index) => {
+        if (!imageModal || !imageModalImg) {
+            return;
+        }
+        if (!imageModalState.images.length) {
+            return;
+        }
+        imageModalState.index = index;
+        const item = imageModalState.images[index];
+        const isVideo = typeof item.src === 'string' && item.src.toLowerCase().endsWith('.mp4');
+
+        if (isVideo) {
+            if (imageModalVideo) {
+                imageModalVideo.src = item.src;
+                imageModalVideo.hidden = false;
+                imageModalVideo.style.display = 'block';
+                imageModalVideo.load();
+            }
+            imageModalImg.hidden = true;
+            imageModalImg.style.display = 'none';
+            imageModalImg.removeAttribute('src');
+        } else {
+            imageModalImg.src = item.src;
+            imageModalImg.alt = item.alt || 'Project image preview';
+            imageModalImg.classList.remove('is-cropped');
+            imageModalImg.style.objectPosition = 'center center';
+            imageModalImg.hidden = false;
+            imageModalImg.style.display = 'block';
+            if (imageModalVideo) {
+                imageModalVideo.pause();
+                imageModalVideo.removeAttribute('src');
+                imageModalVideo.hidden = true;
+                imageModalVideo.style.display = 'none';
+                imageModalVideo.load();
+            }
+        }
+        imageModal.classList.add('is-open');
+        imageModal.setAttribute('aria-hidden', 'false');
+        updateImageModalNavigation();
+    };
+
+    const openImageModal = (src, alt, options = {}) => {
+        if (!imageModal || !imageModalImg) {
+            return;
+        }
+        const images = options.images && options.images.length
+            ? options.images
+            : [{ src, alt }];
+        imageModalState.images = images;
+        imageModalState.index = 0;
+        showImageModalItem(0);
+    };
+
+    const showNextImage = () => {
+        if (!imageModalState.images.length) {
+            return;
+        }
+        const nextIndex = (imageModalState.index + 1) % imageModalState.images.length;
+        showImageModalItem(nextIndex);
+    };
+
+    const showPreviousImage = () => {
+        if (!imageModalState.images.length) {
+            return;
+        }
+        const previousIndex = (imageModalState.index - 1 + imageModalState.images.length) % imageModalState.images.length;
+        showImageModalItem(previousIndex);
+    };
+
+    if (menuButton && siteNav) {
+        menuButton.addEventListener('click', () => {
+            const isOpen = siteNav.classList.toggle('is-open');
+            menuButton.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        siteNav.querySelectorAll('a').forEach((link) => {
+            link.addEventListener('click', () => {
+                siteNav.classList.remove('is-open');
+                menuButton.setAttribute('aria-expanded', 'false');
+            });
+        });
+    }
+
+    projectImageButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+            const image = button.querySelector('img');
+            const imageAlt = image ? image.alt : 'Project image preview';
+            const galleryValue = button.dataset.gallery || button.dataset.images;
+            const imageSources = galleryValue
+                ? galleryValue.split(',').map((value) => value.trim()).filter(Boolean).map((src) => ({ src, alt: imageAlt }))
+                : [];
+            openImageModal(
+                button.dataset.fullImage || image?.getAttribute('src') || '',
+                imageAlt,
+                { images: imageSources.length ? imageSources : [{ src: button.dataset.fullImage || image?.getAttribute('src') || '', alt: imageAlt }] }
+            );
+        });
+    });
+
+    if (imageModalBackdrop) {
+        imageModalBackdrop.addEventListener('click', closeImageModal);
+    }
+
+    if (imageModalClose) {
+        imageModalClose.addEventListener('click', closeImageModal);
+    }
+
+    if (imageModalNavPrev) {
+        imageModalNavPrev.addEventListener('click', showPreviousImage);
+    }
+
+    if (imageModalNavNext) {
+        imageModalNavNext.addEventListener('click', showNextImage);
+    }
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            closeImageModal();
+        } else if (event.key === 'ArrowRight') {
+            showNextImage();
+        } else if (event.key === 'ArrowLeft') {
+            showPreviousImage();
+        }
+    });
+</script>
+
+<script>
+    (function() {
+        if (!window.EventSource) return;
+
+        var source = new EventSource('/livereload');
+        source.onmessage = function(event) {
+            if (event.data !== 'reload') return;
+
+            // Force reload of local images by appending a cache-busting param
+            document.querySelectorAll('img').forEach(function(img) {
+                try {
+                    var src = img.getAttribute('src');
+                    if (!src) return;
+                    // only cache-bust same-origin or relative URLs
+                    if (/^https?:\/\//i.test(src) && src.indexOf(window.location.origin) !== 0) return;
+                    var u = new URL(src, window.location.href);
+                    u.searchParams.set('_lr', Date.now());
+                    img.src = u.toString();
+                } catch (e) {
+                    // ignore
+                }
+            });
+
+            // Then navigate to the page with a cache-busting param to force reload of other assets
+            try {
+                var pageUrl = new URL(window.location.href);
+                pageUrl.searchParams.set('_lr', Date.now());
+                window.location.href = pageUrl.toString();
+            } catch (e) {
+                window.location.reload();
+            }
+        };
+
+        source.onerror = function() {
+            console.warn('Live reload connection lost.');
+        };
+    })();
+</script>
+</body></html>
